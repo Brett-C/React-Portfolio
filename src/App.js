@@ -4,11 +4,14 @@ import About from './pages/about/index';
 import Resume from './pages/resume/index';
 import Contact from './pages/contact/index';
 import Portfolio from './pages/portfolio/index';
+import Navbar from './component/navBar';
+
 
 function App() {
   return (
     <div className="App">
         {/* navBar */}
+        <Navbar />
 
         {/* content pages*/}
     
