@@ -3,36 +3,36 @@ import { Link } from 'react-router-dom'
 
 const data = [
     {
-        label: 'About ME',
+        label: 'ABOUT ME',
         to: '/'
-    },
-    {
-        label: 'RESUME',
-        to: '/resume'
-    },
-
-    {
-        label: 'Contact',
-        to: '/contact'
     },
     {
         label: 'PORTFOLIO',
         to: '/portfolio'
+    },
+    {
+        label: 'CONTACT',
+        to: '/contact'
+    },
+    {
+        label: 'RESUME',
+        to: '/resume'
     }
+
 
 ]
 const Navbar = () => {
     return (
-        <ul>
+        <ul className="nav">
             {
                 data.map((item, key) => (
-                    <li key={key}>
-                        <Link to={item.to}>
+                    <li key={key} className="nav">
+                        <Link className="nav" to={item.to}>
                             {item.label}
                         </Link>
                     </li>
                 ))
-            };
+            }
         </ul>
     )
 }

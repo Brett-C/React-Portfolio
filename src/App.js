@@ -5,7 +5,7 @@ import Resume from './pages/resume/index';
 import Contact from './pages/contact/index';
 import Portfolio from './pages/portfolio/index';
 import Navbar from './component/navBar';
-
+import Footer from './component/footer'
 
 function App() {
   return (
@@ -21,26 +21,10 @@ function App() {
         <Route path='/contact' element={<Contact/>} />
         <Route path='/portfolio' element={<Portfolio/>} />
       </Routes>
+
+        <Footer />
     </div>
   );
 }
 
 export default App;
-
-
-
-
-
-      // <header className="App-header">
-      //   <h1>Brett Cannon</h1>
-      //   <nav>
-        
-      //       <a href='aboutPage'>About me</a>
-      //       <a href='portfolio'>Portfolio</a>
-      //       <a href='contact'>Contact</a>
-      //       <a href='resume'>Resume</a>
-      //    </nav>
-      //    <img src={picture} alt="picture of me" />
-      // </header>
-    
-

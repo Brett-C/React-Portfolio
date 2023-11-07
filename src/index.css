@@ -1,0 +1,257 @@
+body {
+    color: #712626;
+    background-color:#fefafa;
+    font-family: 'Jost', sans-serif;
+    margin:0;
+  }
+  
+  
+  
+  header {
+    background-color: #234E70;
+    color: #cbe4f8;
+    text-align: center;
+  }
+  
+  /* Nav Bar Styling */
+  
+  footer{
+    background-color: #234E70;
+    color:#cbe4f8;
+    text-align: center;
+    font-size: 25px;
+    padding:25px;
+  }
+  ul {
+   list-style-type: none;
+  }
+ 
+  .nav {
+    color:#fefafa;
+    background-color: #712626;
+    display: flex;
+    justify-content: right;
+    padding: 7px;
+    text-decoration: none;
+    
+  }
+  .porfolio_p {
+    text-decoration: none;
+  }
+  .header-name {
+    font-size: 50px;  
+  }
+  
+  /* profile picture styling */
+  .app_image {
+    
+    max-width: 300px;
+    max-height: auto;
+    border: solid 2px;
+    color: #712626;
+    margin:10px;
+  }
+  .profile_image {
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: auto;
+    border: solid 5px;
+    color: #712626;
+    margin:10px;
+    display: flex;
+    justify-content: left;
+  }
+  .about_me_p {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-size: x-large;
+    padding: 10px;
+  }
+  .footer_image {
+    border-radius: 25%;
+    max-width: 50px;
+    max-height: auto;
+    margin:10px;
+  }
+  
+  
+  .section-1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+  
+  
+  }
+  
+  .title {
+    margin: 20px;
+    text-align: center;
+    padding-right:20px;
+    width: 10%;
+    border-right: solid 3px #712626;
+  
+  }
+  
+  
+  .content {
+    margin: 20px;
+    flex: 1;
+  }
+  
+  .project {
+    display: flex;
+    margin: 20px;
+    text-decoration: none;
+  
+  }
+  
+  
+  .apps-a, 
+  .apps-b {
+    flex-wrap: wrap;
+    flex:1;
+  
+  }
+  .submitBtn {
+    margin: 5px;
+    padding: 5px;
+  }
+  .label {
+    display: block;
+    margin: 5px;
+  }
+  .form_name {
+    width: 300px;
+    margin: 5px;
+    padding: 5px;
+  }
+  .form_message {
+    width: 300px;
+    height: 100px;
+  }
+  
+  .project-container{
+    flex:1;
+    display: flex;
+    text-decoration: none;
+  }
+  
+  .title-p {
+    margin: 20px;
+    width: 10%;
+    text-align: center;
+    padding-right: 20px;
+  }
+  
+  .apps-a, .apps-b {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  
+  }
+  
+  .apps-b p, .apps-a p {
+    text-align: left;
+  }
+  
+  .app {
+    color:#712626;
+    border-style: solid;
+    border-width: 2px;
+    flex-wrap: wrap;
+    padding: 10px;
+    flex: 4;
+    margin: 20px;
+    justify-content: space-evenly;
+    text-decoration: none;
+  }
+  .app:hover {
+    box-shadow: #712626 5px 5px 5px 5px;
+    transition: all .3s ease-in-out;
+    }
+  
+  .contact-me {
+    margin: 20px;
+    display: flex;
+  }
+  
+  .title-c {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    width: 10%;
+    align-items: center;
+    border-right: solid 3px black;
+    padding-right:20px;
+  
+  }
+  
+  .content-c
+  {  display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    color: black;
+    text-decoration: none;
+    width: 100%;
+    align-items: center;
+    flex:1;
+    padding:20px;
+  }
+  .content-c a{
+    padding:20px;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  @media screen and (max-width: 860px) {
+  
+    .project
+     {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+   .title-p{
+    border: none;
+   }
+   .app:hover {
+    box-shadow: #234E70 5px 5px 5px 5px;
+    transition: all .3s ease-in-out;
+    }
+  }
+  
+  @media screen and (max-width: 640px) {
+  
+  
+    .content-c
+    {
+      flex-direction: column;
+      justify-content: center;
+      border: none;
+      width: 100%;  
+      align-items: center;
+  
+    }
+    .section-1, .contact-me {
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+  
+    }
+    .title-c, .title-p, .title {
+      border: none;
+      text-align: center;
+      }
+      .project-container{
+        flex-direction: column;
+      }
+      .title-p{
+        width: 100%;
+      }
+      .app:hover {
+        box-shadow: #234E70 5px 5px 5px 5px;
+        transition: all .3s ease-in-out;
+        }
+  }
+  
