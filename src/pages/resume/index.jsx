@@ -15,17 +15,15 @@ const Resume = () => {
             <h1>Resume</h1>
             <button onClick={onButtonClick}>My Resume</button>
             <ul> Front-End Proficiencies
+                <li>HTML</li>
                 <li>CSS</li>
-                <li>CSS</li>
-                <li>CSS</li>
-                <li>CSS</li>
+                <li>Bootstrap</li>
+                <li>JavaScript</li>
             </ul>
             <ul> Back-End Proficiencies
-                <li>CSS</li>
-                <li>CSS</li>
-                <li>CSS</li>
-                <li>CSS</li>
-
+                <li>node.js</li>
+                <li>Express.js</li>
+                <li>Mongo.Db</li>
             </ul>
         </div>
     );
