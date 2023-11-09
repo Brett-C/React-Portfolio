@@ -12,18 +12,18 @@ const Resume = () => {
 
     return (
         <div className="container_resume">
-            <h1>Resume</h1>
+            <h1 className='resume_h'>Resume</h1>
             <button onClick={onButtonClick}>My Resume</button>
-            <ul> Front-End Proficiencies
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Bootstrap</li>
-                <li>JavaScript</li>
+            <ul className='resume_ul'> Front-End Proficiencies
+                <li className='resume_li'>HTML</li>
+                <li className='resume_li'>CSS</li>
+                <li className='resume_li'>Bootstrap</li>
+                <li className='resume_li'>JavaScript</li>
             </ul>
-            <ul> Back-End Proficiencies
-                <li>node.js</li>
-                <li>Express.js</li>
-                <li>Mongo.Db</li>
+            <ul className='resume_ul'> Back-End Proficiencies
+                <li className='resume_li'>node.js</li>
+                <li className='resume_li'>Express.js</li>
+                <li className='resume_li'>Mongo.Db</li>
             </ul>
         </div>
     );
