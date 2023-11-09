@@ -21,7 +21,7 @@ const Resume = () => {
                 <li className='resume_li'>JavaScript</li>
             </ul>
             <ul className='resume_ul'> Back-End Proficiencies
-                <li className='resume_li'>node.js</li>
+                <li className='resume_li'>Node.js</li>
                 <li className='resume_li'>Express.js</li>
                 <li className='resume_li'>Mongo.Db</li>
             </ul>
